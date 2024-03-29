@@ -17,18 +17,18 @@ app.use(express.static(path.join(__dirname,"public")));
 let posts=[
     {
         id:uuidv4(),
-        username:"hemildesai",
+        username:"IshitaPatoliya",
         content : "I love coding!"
     },
     {
         id:uuidv4(),
-        username:"mananbhalala",
-        content : "Bhagawan chhe ne!"
+        username:"PinalPatoliya",
+        content : "hello pinal"
     },
     {
         id:uuidv4(),
-        username:"brijesh",
-        content : "Ahoo Maharaj!"
+        username:"Helllooooo",
+        content : "Hiiii!"
     },
 ];
 app.get("/",(req,res) => {
